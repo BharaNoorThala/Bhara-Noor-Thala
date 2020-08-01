@@ -1,0 +1,96 @@
+* {
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+a {
+	color: #FFA500;
+	text-decoration: none;
+}
+.medsos {
+	padding: 0px;
+}
+.medsos ul li {
+	display: inline-block;
+	color: : #fff;
+	margin-right: 30px;
+}
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+.container:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+header h1 {
+	float: left;
+	padding: 13px 10px;
+	color: #FFA500 ;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li{
+	padding: 24.5px 7px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #FFA500;
+	color: #fff;
+	padding: 24.5px 7px;
+}
+footer{
+        font-family: sans-serif;
+        background-color: #FFA500;
+        padding: 20px;
+        color: #666;
+}
+.active{
+	background-color:#FFA500;
+	color: #00FF00;
+	padding: 0px;
+}
+.banner{
+	height: 70vh;
+	background-image: url('image/Gambar Novel.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content:'';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0, .6);
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 25px 30px;
+	border: 5px solid #FFA500;
+}
+section {
+	padding: 50px 0;
+}
+section h2{
+	text-align: center;
+	padding:20px 0;
+	color: #FFA500;
+	margin-bottom: 20px;
+}
+.about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+}
